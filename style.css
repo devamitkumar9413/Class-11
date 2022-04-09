@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+
+}
+.container{
+    width: 1240px;
+    margin: auto;
+}
+
+.header-section{
+    background-color: #34495e;
+    padding: 50px 0;
+}
+.header-section .menu{
+    text-align: center;
+}
+.header-section .menu ul{}
+.header-section .menu ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    
+}
+.header-section .menu ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: #bf691c;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.header-section .menu ul li span{
+    width: 5px;
+    height: 13px;
+    background-color:white;
+    display: block;
+    position: absolute;
+    left: 37px;
+   top: 20px;
+
+}
+.header-section .menu ul li p{
+       color: white;
+        margin: 7px;
+        position: absolute;
+        left: -8px;
+        bottom: -28px;
+    }
+}
+.service-section{
+    background: red;
+
+}
+.service-section .service-header{
+        border-bottom: 5px dashed #657f65;
+    background-color: #e1e1e1;}
+
+.service-section .service-header h1{
+    color: #3c5e3c;
+    text-align: center;
+    font-size: 43px;
+}
+/* service-item */
+.service-item .service-one span{}
+
+.service-item .service-one span i{
+    font-size: 40px;
+}
+
+.service-item .service-one h2{
+    text-align: center;
+}
+
+
+.service-item{
+    padding-top: 20px;
+    background-color: #e1e1e1;
+    text-align: center;
+}
+.service-item .service-one{
+width: 30%;
+background-color: #eee7e7;
+display: inline-block;
+padding-top: 20px;
+margin: 10px;
+padding-left: 5px;
+height: 232px;
+border-radious: 40px;
+border-radius: 19px;
+text-align: center;
+transition: .43s;
+}
+.service-item .service-one:hover{
+    background-color: white;
+}
+/* about-section */
+.about-section{
+    background-color: #9b59b6;
+    padding: 150px 0;
+    
+}
+
+
+
+}
+.about-section .container{}
+.about-section .container .about-img{
+    display: inline-block;
+    position: relative;
+top: 40px;
+}
+.about-section .container .about-img .img-inner{
+    
+}
+.about-section .container .about-img .img-inner img{
+    width: 150px;
+    height: auto;
+    
+}
+.about-section .container .about-box{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #34495e;
+    display: inline-block;
+    text-align: center;
+    border: 5px dotted #bf722e;
+}
+
+.about-section .container .about-box .one{
+    position: relative;
+    top: 132px;
+    left: 43px;
+    
+}
+.about-section .container .about-box .two{
+    position: relative;
+top: -20px;
+left: -10px;
+}
+.about-section .container .about-box .three{}
+.about-section .container .about-box .four{}
+.about-section .container .about-box .five{}
+.about-box.one {
+	position: relative;
+top: 66px;
+left: -5px;
+}
+.about-box.two {
+	position: relative;
+	top: -21px;
+	left: -8px;
+}
+img {
+	position: relative;
+	top: 15px;
+    border-radius: 50%;
+    border: 5px solid #bf722e;
+}
+.about-box.four {
+	position: relative;
+	top: -moz-calc;
+	top: -21px;
+	left: 10px;
+}
+.about-box.five {
+	position: relative;
+	top: 66px;
+	left: 13px;
+}
+
+
+.about-section {
+	width: auto;
+	height: 261px;
+    text-align: center;
+}  
+
+.hover {
+	position: absolute;
+    top: 20px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+	background-color:rgba(243, 244, 247, 0.1);
+	top: 0;
+	left: o;
+	border-radius: 50%;
+    cursor: pointer;
+    transition: .6s;
+}
+/* .about-img {
+    visibility: visible;
+    opacity: 1;
+} */
+.about-img .img-inner:hover .hover{
+    
+    visibility: visible;
+    opacity: 1;
+}
+
+.hover h4{
+
+    margin-top: 100px;
+    height: auto;
+}
+
+.hover h4 p{
+margin-top: 100px;
+}
+.botton {
+	position: relative;
+	top: 66px;
+
+border-radius: 3px;
+}
+input {
+	border-radius: 22px;
+	height: 37px;
+	width: 191px;
+}
+button {
+	border-radius: 26px;
+	width: 93px;
+	height: 38px;
+		background-color: #9b59b6;
+	position: relative;
+	margin: 2px solid #9b59b6;
+}
+.footer {
+	background-color: #2c3e50;
+	color: white;
+	text-align: center;
+	padding-top: 3px;
+	width: auto;
+	height: 45px;
+}
